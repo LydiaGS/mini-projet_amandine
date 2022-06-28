@@ -1,0 +1,40 @@
+/*navbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: 	#FFA500;
+    font-family: Courier New, monospace;
+    font-size: 30px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #FF8C00;
+  }
+  
+  .active {
+    background-color: #FF8C00;
+  }
+    /* fin navbar*/
+
+    body{
+        background-image:url(../img/poké_f.jpg)
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
